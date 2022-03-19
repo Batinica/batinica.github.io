@@ -1,5 +1,5 @@
-let cacheName = "moja-prva-app";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js"];
+let cacheName = "moja-prva-pwa";
+let filesToCache = ["/", "/index2.html", "/CSS/style.css", "/JS/main.js"];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", (e) => {
